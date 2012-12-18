@@ -1,0 +1,15 @@
+; $Id: nodesquirrel.info,v 1.1.2.4 2011/01/31 21:37:40 ronan Exp $
+name = NodeSquirrel Client
+description = Adds support for the NodeSquirrel.com backup service to Backup & Migrate.
+dependencies[] = backup_migrate
+core = 6.x
+
+files[] = nodesquirrel.module
+files[] = destinations.nodesquirrel.inc
+
+; Information added by drupal.org packaging script on 2012-10-29
+version = "6.x-1.0"
+core = "6.x"
+project = "nodesquirrel"
+datestamp = "1351522621"
+
